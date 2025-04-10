@@ -2,16 +2,16 @@ package com.oop.innerClass.member;
 
 public class People {
     private String name = "张三";
-    private static double height;
 
-    // 静态内部类
-    public static class User {
+    // 成员内部类
+    public class User {
+        private String name = "李四";
+
         public void show() {
-            // 可以访问外部类的静态成员
-            System.out.println(height); // success
-
-            // 不可以访问外部类的实例成员
-            // System.out.println(name); // error
+            String name = "王五";
+            System.out.println(name); // 王五
+            System.out.println(this.name); // 李四
+            System.out.println(People.this.name); // 张三
         }
     }
 }

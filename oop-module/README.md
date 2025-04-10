@@ -74,3 +74,53 @@ public class Test {
 1. 特殊的局部内部类，匿名指不需要为这个类申明名字；
 2. 本质是一个子类，并会立即创建出一个子类对象；
 3. 用于更方便的创建一个子类对象
+```java
+public class Test {
+    public static void main(String[] args) {
+        // 创建匿名内部类对象
+        // 匿名内部类的名称：“当前类名$编号”
+        Animal dog = new Animal() {
+            @Override
+            public void eat() {
+                System.out.println("小狗吃骨头");
+            }
+        };
+        dog.eat();
+    }
+}
+
+abstract class Animal {
+    public abstract void eat();
+}
+```
+
+### 使用场景
+作为一个对象参数传输给方法使用。
+```java
+public class Test {
+    public static void main(String[] args) {
+        Swimming s1 = new Swimming() {
+            @Override
+            public void swim() {
+                System.out.println("蛙泳");
+            }
+        };
+        go(s1);
+
+        go(new Swimming() {
+            @Override
+            public void swim() {
+                System.out.println("自由泳");
+            }
+        });
+    }
+
+    public static void go(Swimming s) {
+        s.swim();
+    }
+}
+
+interface Swimming {
+    void swim();
+}
+```
