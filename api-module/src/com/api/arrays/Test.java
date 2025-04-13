@@ -28,7 +28,13 @@ public class Test {
         });
 
 
+//      Lambda 表达式简化
         Arrays.sort(list, (o1, o2) -> Double.compare(o1.getHeight(), o2.getHeight()));
+
+//      Lambda 表达式，静态方法的引用
+        Arrays.sort(list, (o1, o2) -> Student.compareByHeight(o1, o2));
+        // 简化成：
+        Arrays.sort(list, Student::compareByHeight);
 
         System.out.println(Arrays.toString(list));
     }
