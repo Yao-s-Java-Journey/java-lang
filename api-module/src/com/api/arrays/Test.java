@@ -27,6 +27,9 @@ public class Test {
             }
         });
 
+
+        Arrays.sort(list, (o1, o2) -> Double.compare(o1.getHeight(), o2.getHeight()));
+
         System.out.println(Arrays.toString(list));
     }
 }
