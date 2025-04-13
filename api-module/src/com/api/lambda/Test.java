@@ -1,7 +1,11 @@
 package com.api.lambda;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class Test {
     public static void main(String[] args) {
+        System.out.println("简化函数式接口的匿名内部类代码：");
         Animal cat = new Animal() {
             @Override
             public void eat() {
@@ -13,6 +17,25 @@ public class Test {
             System.out.println("小狗吃肉");
         };
         dog.eat();
+        System.out.println("\n-------------------\n");
+
+        System.out.println("简化特定类型的方法引用：");
+        String[] names = {"dlei", "Angela", "baby", "caocao", "coach", "曹操", "deby", "eason", "andy"};
+        // 排序的正常写法：
+        Arrays.sort(names, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                // 忽略大小写，按首字母排序
+                return o1.compareToIgnoreCase(o2);
+            }
+        });
+
+        // 简化：
+        Arrays.sort(names, (o1, o2) -> o1.compareToIgnoreCase(o2));
+        // 终极简化：
+        Arrays.sort(names, String::compareToIgnoreCase);
+
+        System.out.println(Arrays.toString(names));
     }
 }
 
