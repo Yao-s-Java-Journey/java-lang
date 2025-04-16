@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm-module/algorithm-module.iml" filepath="$PROJECT_DIR$/algorithm-module/algorithm-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-module/api-module.iml" filepath="$PROJECT_DIR$/api-module/api-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception-module/exception-module.iml" filepath="$PROJECT_DIR$/exception-module/exception-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-study.iml" filepath="$PROJECT_DIR$/java-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-module/oop-module.iml" filepath="$PROJECT_DIR$/oop-module/oop-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp-module/regexp-module.iml" filepath="$PROJECT_DIR$/regexp-module/regexp-module.iml" />
