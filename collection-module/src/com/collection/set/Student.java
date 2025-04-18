@@ -2,10 +2,13 @@ package com.collection.set;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private String name;
     private int age;
-    public Student() {}
+
+    public Student() {
+    }
+
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
@@ -44,5 +47,11 @@ public class Student {
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
         return age == student.age && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        // return this.age - o.age; // 升序
+         return o.age - this.age; // 降序
     }
 }
