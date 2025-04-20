@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/collection-module/collection-module.iml" filepath="$PROJECT_DIR$/collection-module/collection-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception-module/exception-module.iml" filepath="$PROJECT_DIR$/exception-module/exception-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-study.iml" filepath="$PROJECT_DIR$/java-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map-module/map-module.iml" filepath="$PROJECT_DIR$/map-module/map-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-module/oop-module.iml" filepath="$PROJECT_DIR$/oop-module/oop-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp-module/regexp-module.iml" filepath="$PROJECT_DIR$/regexp-module/regexp-module.iml" />
     </modules>
