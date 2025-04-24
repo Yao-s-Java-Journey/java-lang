@@ -68,7 +68,7 @@ public class FileInputStreamTest {
         // System.out.println("个数：" + len5);
 
         // 3.2 直接调用 api
-        // byte[] buffer2 = in.readAllBytes();
-        // System.out.println("内容：" + new String(buffer2));
+         byte[] buffer2 = in.readAllBytes();
+         System.out.println("内容：" + new String(buffer2));
     }
 }
