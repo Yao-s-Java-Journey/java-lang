@@ -21,11 +21,11 @@ public class FileReaderTest {
             // }
 
             // 3. 用字符数组去读取数据
-            // char[] buffer = new char[3];
-            // int len;
-            // while ((len = reader.read(buffer)) != -1) {
-            //     System.out.print(new String(buffer, 0, len));
-            // }
+            char[] buffer = new char[3];
+            int len;
+            while ((len = reader.read(buffer)) != -1) {
+                System.out.print(new String(buffer, 0, len));
+            }
 
         } catch (Exception e) {
             throw new RuntimeException(e);
