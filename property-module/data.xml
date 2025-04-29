@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<contactList>
+    <contact id="1">
+        <name>张三</name>
+        <gender>男</gender>
+        <email>123@qq.com</email>
+    </contact>
+    <contact id="2">
+        <name>李四</name>
+        <gender>女</gender>
+        <email>456@qq.com</email>
+    </contact>
+</contactList>
