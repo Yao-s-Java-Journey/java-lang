@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-study.iml" filepath="$PROJECT_DIR$/java-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/map-module/map-module.iml" filepath="$PROJECT_DIR$/map-module/map-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-module/oop-module.iml" filepath="$PROJECT_DIR$/oop-module/oop-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-module/property-module.iml" filepath="$PROJECT_DIR$/property-module/property-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp-module/regexp-module.iml" filepath="$PROJECT_DIR$/regexp-module/regexp-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-module/stream-module.iml" filepath="$PROJECT_DIR$/stream-module/stream-module.iml" />
     </modules>
