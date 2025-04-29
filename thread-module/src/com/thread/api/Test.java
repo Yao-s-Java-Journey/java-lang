@@ -18,7 +18,7 @@ public class Test {
             }
         }
     }
-}   
+}
 
 class MyThread extends Thread {
     public MyThread(String name) {
