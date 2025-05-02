@@ -10,7 +10,7 @@ import java.net.Socket;
  * 一个线程处理一个客户端请求
  */
 @AllArgsConstructor
-public class ServerThread extends Thread {
+public class ServerThread implements Runnable {
     private Socket client; // 其中一个客户端
 
     @Override
