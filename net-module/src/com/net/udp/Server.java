@@ -1,4 +1,4 @@
-package com.udp.create;
+package com.net.udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
