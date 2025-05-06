@@ -14,10 +14,12 @@
       <module fileurl="file://$PROJECT_DIR$/net-module/net-module.iml" filepath="$PROJECT_DIR$/net-module/net-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-module/oop-module.iml" filepath="$PROJECT_DIR$/oop-module/oop-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/property-module/property-module.iml" filepath="$PROJECT_DIR$/property-module/property-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflect-module/reflect-module.iml" filepath="$PROJECT_DIR$/reflect-module/reflect-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp-module/regexp-module.iml" filepath="$PROJECT_DIR$/regexp-module/regexp-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-module/stream-module.iml" filepath="$PROJECT_DIR$/stream-module/stream-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-module/thread-module.iml" filepath="$PROJECT_DIR$/thread-module/thread-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/udp-module/udp-module.iml" filepath="$PROJECT_DIR$/udp-module/udp-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-module/unit-module.iml" filepath="$PROJECT_DIR$/unit-module/unit-module.iml" />
     </modules>
   </component>
 </project>
