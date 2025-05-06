@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm-module/algorithm-module.iml" filepath="$PROJECT_DIR$/algorithm-module/algorithm-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation-module/annotation-module.iml" filepath="$PROJECT_DIR$/annotation-module/annotation-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-module/api-module.iml" filepath="$PROJECT_DIR$/api-module/api-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection-module/collection-module.iml" filepath="$PROJECT_DIR$/collection-module/collection-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception-module/exception-module.iml" filepath="$PROJECT_DIR$/exception-module/exception-module.iml" />
